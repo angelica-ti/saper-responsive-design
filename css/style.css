@@ -1,0 +1,38 @@
+*{
+    text-align: justify;
+}
+.row div {
+    min-height: 50px; 
+    background-color: rgb(170, 227, 243);
+    content:  "\00a0 ";
+}
+.container.no > .row > div {
+    border: 0px;
+    background-color: white;
+}
+.row {
+    margin: 20px 2px;
+}
+
+.height1{
+    height: 300px;
+}
+.height2{
+    height: 500px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 12%;
+}
+img{
+    height: 70%;
+    width: 100%;
+}
+
+figcaption{
+    margin: 5px;
+    font-weight: bold;
+}
